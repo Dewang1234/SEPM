@@ -2,7 +2,7 @@ name: Python package
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # runs every day at 00:00 UTC
+    - cron: "* * * * *"   # runs every day at 00:00 UTC
   push:
     branches: [ "main" ]
   pull_request:
