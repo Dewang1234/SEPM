@@ -15,4 +15,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Run script
-        run: python main.py
+        run: python hello.py
